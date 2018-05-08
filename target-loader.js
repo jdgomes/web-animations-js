@@ -13,6 +13,7 @@
 // limitations under the License.
 
 (function() {
+  try{
   var target = webAnimationsTargetConfig.defaultTarget;
   if (typeof webAnimationsSourceTarget != 'undefined')
     target = webAnimationsSourceTarget;
@@ -24,4 +25,5 @@
   webAnimationsTargetConfig[target].src.forEach(function(sourceFile) {
     document.write('<script src="' + location + sourceFile + '"></script>');
   });
+  }catch(e){}
 })();
