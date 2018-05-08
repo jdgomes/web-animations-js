@@ -12,11 +12,11 @@
   ],
   "homepage": "https://github.com/web-animations",
   "license": "Apache-2.0",
-  "main": "web-animations.min.js",
+  "main": "web-animations.js",
   "files": [
     "src/*",
-    "*.min.js",
-    "*.min.js.map"
+    "*.js",
+    "*.js.map"
   ],
   "devDependencies": {
     "mocha": "1.21.4",
